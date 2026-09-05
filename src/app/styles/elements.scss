@@ -1,0 +1,12 @@
+@use "colours" as c;
+
+.wp-bulma-divider {
+  width: 100dvw;
+  max-width: 100%;
+  height: 1px;
+  border-bottom: 1px solid c.$wp-bulma-theme-accent;
+}
+
+.wp-bulma-icon-color-accent {
+  color: c.$wp-bulma-theme-accent;
+}

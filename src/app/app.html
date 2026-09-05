@@ -1,0 +1,21 @@
+<app-page-container>
+  <nav class="navbar is-display-flex is-flex-direction-row is-justify-content-center" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="#">
+      <span class="icon wp-bulma-icon-color-accent">
+        <svg lucideBraces></svg>
+      </span>
+      </a>
+    </div>
+    <div id="navBar" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" routerLink="/landing" [innerText]="title()"></a>
+      </div>
+    </div>
+  </nav>
+  <div class="wp-bulma-divider"></div>
+</app-page-container>
+<router-outlet></router-outlet>
+<footer class="footer">
+  <div class="content has-text-centered" [innerHtml]="mdAppFooter"></div>
+</footer>

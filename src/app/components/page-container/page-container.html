@@ -1,0 +1,11 @@
+<div class="page-container">
+  <div class="page-container-content"
+       [style.padding-top.px]    = "(paddingYPx > 0) ? paddingYPx : paddingTopPx"
+       [style.padding-bottom.px] = "(paddingYPx > 0) ? paddingYPx : paddingBottomPx"
+       [style.padding-left.px]   = "(paddingXPx > 0) ? paddingXPx : paddingLeftPx"
+       [style.padding-right.px]  = "(paddingXPx > 0) ? paddingXPx : paddingRightPx"
+       [style.background]        = "backgroundStyle"
+  >
+    <ng-content></ng-content>
+  </div>
+</div>

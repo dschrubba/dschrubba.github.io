@@ -1,0 +1,12 @@
+@use "vars" as v;
+
+.page-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .page-container-content {
+    width: 100%;
+    max-width: v.$content-max-width;
+  }
+}
