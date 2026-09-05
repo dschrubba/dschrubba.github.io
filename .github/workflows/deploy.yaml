@@ -3,7 +3,7 @@ name: Deploy Angular to GitHub Pages
 on:
   push:
     branches:
-      - main # Change to 'master' if your default branch is master
+      - main
 
 permissions:
   contents: write
@@ -25,12 +25,11 @@ jobs:
         run: npm ci
 
       - name: Build Angular Project
-        # Note: Update the base-href just like you did for the manual deployment
         run: npm run build -- --base-href=/dschrubba.github.io/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          # Check your angular.json "outputPath" to ensure this matches exactly
-          publish_dir: ./dist/dschrubba.github.io/browser
+          publish_dir: ./dist/browser
+          force_orphan: true
