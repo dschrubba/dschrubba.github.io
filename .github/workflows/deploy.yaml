@@ -26,11 +26,11 @@ jobs:
 
       - name: Build Angular Project
         # Note: Update the base-href just like you did for the manual deployment
-        run: npm run build -- --base-href=/<repository-name>/
+        run: npm run build -- --base-href=/dschrubba.github.io/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           # Check your angular.json "outputPath" to ensure this matches exactly
-          publish_dir: ./dist/<your-project-name>/browser
+          publish_dir: ./dist/dschrubba.github.io/browser
