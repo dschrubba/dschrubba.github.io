@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "wp-bulma": {
+    "dschrubba.github.io": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -72,10 +72,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "wp-bulma:build:production"
+              "buildTarget": "dschrubba.github.io:build:production"
             },
             "development": {
-              "buildTarget": "wp-bulma:build:development"
+              "buildTarget": "dschrubba.github.io:build:development"
             }
           },
           "defaultConfiguration": "development"
