@@ -1,0 +1,36 @@
+name: Deploy Angular to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # Change to 'master' if your default branch is master
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '26'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Build Angular Project
+        # Note: Update the base-href just like you did for the manual deployment
+        run: npm run build -- --base-href=/<repository-name>/
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # Check your angular.json "outputPath" to ensure this matches exactly
+          publish_dir: ./dist/<your-project-name>/browser
