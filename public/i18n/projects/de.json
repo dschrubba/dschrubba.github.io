@@ -6,34 +6,26 @@
   "items": [
     {
       "id": "ocr-document-analysis",
-      "image": "public/images-grid/placeholder-1280x720.png",
+      "image": "public/images-grid/compagnons-4UGmm3WRUoQ-unsplash.jpg",
       "category": "KI · Beruflich",
       "title": "Dokumentenanalyse per OCR",
       "text": "KI-basierte Analyse von Dokumenten für ein B2B-Softwareprodukt, aufgebaut auf der Open-Source-OCR-Engine Tesseract.",
-      "tags": [
-        "Tesseract OCR",
-        "KI",
-        "Dokumentenanalyse"
-      ],
+      "tags": ["Tesseract OCR", "KI", "Dokumentenanalyse"],
       "placeholder": "[SCREENSHOT — Dokumentenanalyse]"
     },
     {
       "id": "telephony-audio-quality",
-      "image": "public/images-grid/placeholder-1280x720.png",
+      "image": "public/images-grid/a-chosen-soul-nptbF5NSnco-unsplash.jpg",
       "category": "KI · Beruflich",
       "title": "Audioqualitätsanalyse für Telefonie",
       "text": "Automatisierte, objektive Bewertung der Audioqualität in der Telefonie mit ViSQOL, einer wahrnehmungsbasierten Metrik für Sprachqualität.",
-      "tags": [
-        "ViSQOL",
-        "KI",
-        "Audio"
-      ],
+      "tags": ["ViSQOL", "KI", "Audio"],
       "placeholder": "[SCREENSHOT — Audioanalyse]"
     },
     {
       "id": "game-data-extraction",
       "image": "public/images-grid/placeholder-1280x720.png",
-      "category": "KI · Spiele",
+      "category": "Reverse Engineering · KI · Spiele",
       "title": "Datenextraktion für Spiele",
       "text": "KI-gestützte Tools, die Daten aus Spieldateien und -formaten herauslösen – Grundlage für Analyse, Modding und Spielebewahrung.",
       "tags": [
@@ -71,15 +63,11 @@
     },
     {
       "id": "headless-cms-sites",
-      "image": "public/images-grid/placeholder-1280x720.png",
+      "image": "public/images-grid/cms.webp",
       "category": "Web · Freiberuflich",
       "title": "Websites mit Headless CMS",
       "text": "Mehrere Websites mit Strapi und Angular, inklusive benutzerdefinierter Content-Typen und Authentifizierung.",
-      "tags": [
-        "Strapi",
-        "Angular",
-        "Authentifizierung"
-      ],
+      "tags": ["Strapi", "Angular", "Authentifizierung"],
       "placeholder": "[SCREENSHOT — Website]"
     }
   ]

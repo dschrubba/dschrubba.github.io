@@ -6,7 +6,7 @@
   "items": [
     {
       "id": "ocr-document-analysis",
-      "image": "public/images-grid/placeholder-1280x720.png",
+      "image": "public/images-grid/compagnons-4UGmm3WRUoQ-unsplash.jpg",
       "category": "AI · Professional",
       "title": "Document analysis with OCR",
       "text": "AI-based analysis of documents for a B2B software product, built on the open-source Tesseract OCR engine.",
@@ -19,7 +19,7 @@
     },
     {
       "id": "telephony-audio-quality",
-      "image": "public/images-grid/placeholder-1280x720.png",
+      "image": "public/images-grid/a-chosen-soul-nptbF5NSnco-unsplash.jpg",
       "category": "AI · Professional",
       "title": "Audio quality analysis for telephony",
       "text": "Automated, objective assessment of telephony audio quality with ViSQOL, a perceptual speech-quality metric.",
@@ -33,7 +33,7 @@
     {
       "id": "game-data-extraction",
       "image": "public/images-grid/placeholder-1280x720.png",
-      "category": "AI · Games",
+      "category": "Reverse Engineering · AI · Games",
       "title": "Data extraction tools for games",
       "text": "AI-assisted tools that pull data out of game files and formats – groundwork for analysis, modding and preservation.",
       "tags": [
@@ -71,7 +71,7 @@
     },
     {
       "id": "headless-cms-sites",
-      "image": "public/images-grid/placeholder-1280x720.png",
+      "image": "public/images-grid/cms.webp",
       "category": "Web · Freelance",
       "title": "Headless CMS websites",
       "text": "Several websites built with Strapi and Angular, with custom content types and authentication.",
