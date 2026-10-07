@@ -1,17 +1,21 @@
-@use "colours" as c;
+@use 'colours' as c;
+@use 'vars' as v;
 
 // Bulma compiled from Sass, configured with our palette.
 // The no-dark-mode build is used so the OS dark setting doesn't
-// swap the background/text colours for Bulma's own dark scheme.
-@use "bulma/versions/bulma-no-dark-mode" with (
+// swap the background/text colours for Bulma's own dark scheme —
+// the site is always dark.
+@use 'bulma/versions/bulma-no-dark-mode' with (
   $primary: c.$accent,
   $link: c.$link,
   $text: c.$text,
   $text-strong: c.$text,
-  $text-weak: c.$text-light,
+  $text-weak: c.$text-muted,
+  $family-primary: v.$font-sans,
+  $family-code: v.$font-mono,
+  $radius: v.$radius,
   $custom-colors: (
-    // Bulma's "dark" doubles as our panel colour: is-dark, has-background-dark
-    "dark": (c.$panel, c.$on-panel),
+    'dark': (c.$surface, c.$text),
   )
 );
 
@@ -20,10 +24,18 @@
 :root {
   --bulma-scheme-main: #{c.$background};
   --bulma-body-background-color: #{c.$background};
+  --bulma-body-color: #{c.$text};
   --bulma-text: #{c.$text};
   --bulma-text-strong: #{c.$text};
-  --bulma-text-weak: #{c.$text-light};
+  --bulma-text-weak: #{c.$text-muted};
   --bulma-link-text: #{c.$link};
+  --bulma-border: #{c.$border-strong};
+  --bulma-footer-background-color: transparent;
+
+  // Mirrors of the palette, handy for live tweaking in devtools.
+  --accent: #{c.$accent};
+  --accent-soft: #{c.$accent-soft};
+  --on-accent: #{c.$on-accent};
 }
 
 // Links: no underline, in any state.

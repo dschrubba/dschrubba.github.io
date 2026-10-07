@@ -1,0 +1,17 @@
+@use 'colours' as c;
+@use 'vars' as v;
+
+.focus {
+  padding-top: 80px;
+}
+
+// 1px gap on a border-coloured ground draws the hairlines between cells.
+.focus-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1px;
+  background: c.$border;
+  border: 1px solid c.$border;
+  border-radius: v.$radius-card;
+  overflow: hidden;
+}

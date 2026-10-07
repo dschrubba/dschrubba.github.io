@@ -1,8 +1,38 @@
-@use "bulma-theme";
-@use "elements" as e;
+@use 'bulma-theme';
+@use 'elements';
+@use 'colours' as c;
+@use 'vars' as v;
 
-body, html {
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+body,
+html {
   min-height: 100dvh;
   padding: 0;
   margin: 0;
+  background: c.$background;
+}
+
+body {
+  color: c.$text;
+  font-family: v.$font-sans;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+a {
+  color: c.$link;
+
+  &:hover {
+    color: c.$accent-softer;
+  }
+}
+
+h1,
+h2,
+h3 {
+  color: c.$text;
 }

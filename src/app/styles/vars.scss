@@ -1,1 +1,16 @@
-$content-max-width: 1200px;
+// Layout
+$content-max-width: 1160px;
+$gutter: 24px;
+$section-gap: 112px;
+
+// Shape
+$radius: 8px;
+$radius-card: 14px;
+$radius-panel: 18px;
+
+// Type
+$font-sans: 'Manrope', system-ui, -apple-system, 'Segoe UI', sans-serif;
+$font-mono: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+
+// Breakpoints (match Bulma's)
+$tablet: 769px;

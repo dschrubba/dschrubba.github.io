@@ -1,2 +1,1 @@
-This website usees <a target="_blank" href="https://bulma.io/"><strong>Bulma</strong></a>.<br />
-No artificial intelligence has been used to create this project.
+Built with Angular &amp; <a target="_blank" href="https://bulma.io/">Bulma</a>

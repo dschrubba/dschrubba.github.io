@@ -1,7 +1,8 @@
 <app-navbar></app-navbar>
 <router-outlet></router-outlet>
-<app-page-container>
-  <footer class="footer">
-    <div class="content has-text-centered" [innerHtml]="mdAppFooter"></div>
-  </footer>
-</app-page-container>
+<footer class="site-footer">
+  <div class="pf-container footer-inner pf-mono">
+    <span>© {{ year }} Daniel · dschrubba.github.io</span>
+    <span [innerHTML]="mdAppFooter"></span>
+  </div>
+</footer>

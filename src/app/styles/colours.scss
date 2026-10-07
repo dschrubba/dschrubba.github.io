@@ -1,10 +1,31 @@
-// Site colour palette — single source of truth.
-// Bulma is configured from these in bulma-theme.scss.
+@use 'sass:color';
 
-$background: #f1f1fc;   // page background
-$panel: #3e3e40;        // dark panels / surfaces
-$on-panel: #f2f5f4;     // text & icons on $panel
-$text: #15161a;         // body text
-$text-light: #2b2e3b;   // secondary / lighter text
-$accent: #ff002a;       // actual highlights only (Bulma "primary")
-$link: #0083cf;         // links only (Bulma "link")
+$accent: #d1055d;         // Formerly #64847b;
+
+$background: #14161a;     // page background
+$surface: #1b1d23;        // cards, contact panel
+$surface-sunken: #101216; // image placeholders
+$surface-raised: #1f2128; // stack chips
+$border: #262931;         // dividers, section rules
+$border-strong: #31343e;  // outlines, pills
+$text: #e4e6ec;           // headings & body text
+$text-muted: #a6aab6;     // secondary text
+$text-faint: #8a8f9c;     // footer, captions
+
+// Derived from $accent
+// Lighter accent for small text on dark grounds
+$accent-soft: color.mix(#ffffff, $accent, 40%);
+$accent-softer: color.mix(#ffffff, $accent, 65%);
+
+// Text on top of an accent fill
+$on-accent: if(color.channel($accent, 'lightness', $space: oklch) > 55%, #0d0f12, #ffffff);
+
+// Focus ring
+$focus: rgba($accent-soft, 0.6);
+
+
+// Legacy
+$panel: $surface;
+$on-panel: $text;
+$text-light: $text-muted;
+$link: $accent-soft;

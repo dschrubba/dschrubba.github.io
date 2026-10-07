@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, computed, input } from '@angular/core';
 
 @Component({
   imports: [],
@@ -7,6 +7,8 @@ import { Component, Input } from '@angular/core';
   templateUrl: './skill-grid-cell.html',
 })
 export class SkillGridCell {
-  @Input() title: string = "Skill Name";
-  @Input() text: string = "Lorem Ipsum is simply dummy text of the Lorem Ipsum‚";
+  readonly index = input(1);
+  readonly title = input('Skill name');
+  readonly text = input('');
+  protected readonly number = computed(() => String(this.index()).padStart(2, '0'));
 }

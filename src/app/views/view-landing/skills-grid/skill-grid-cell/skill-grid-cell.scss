@@ -1,8 +1,26 @@
-.skill-grid-cell-title {
-  font-weight: 500;
-  font-size: 1.5rem;
+@use 'colours' as c;
+
+:host {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 28px;
+  background: #16181d;
 }
 
-.skill-grid-cell-name {
+.cell-number {
+  font-size: 13px;
+  color: c.$accent-soft;
+}
 
+.cell-title {
+  margin: 0;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.cell-text {
+  margin: 0;
+  color: c.$text-muted;
+  font-size: 15px;
 }

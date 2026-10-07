@@ -1,18 +1,15 @@
 import { Component } from '@angular/core';
-import { PageContainer } from 'src/app/components/page-container/page-container';
-import { marked } from 'marked';
-import profileTextMd from '../../../markdown/profile-text.md';
+import { LucideArrowDown } from '@lucide/angular';
+import { GITHUB_URL, HERO } from 'src/app/data/portfolio';
+import { GithubIcon } from 'src/app/components/github-icon/github-icon';
 
 @Component({
-  imports: [
-    PageContainer
-  ],
+  imports: [LucideArrowDown, GithubIcon],
   selector: 'app-landing-hero',
   styleUrl: './landing-hero.scss',
   templateUrl: './landing-hero.html',
 })
 export class LandingHero {
-
-  protected readonly profileText = marked.parse(profileTextMd);
-
+  protected readonly hero = HERO;
+  protected readonly githubUrl = GITHUB_URL;
 }

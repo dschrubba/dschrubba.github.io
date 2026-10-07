@@ -1,15 +1,13 @@
-<nav class="navbar is-display-flex is-flex-direction-row is-justify-content-center" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a class="navbar-item" href="#">
-    <span class="icon wp-bulma-icon-color-accent">
-      <svg lucideBraces></svg>
-    </span>
+<header class="site-header">
+  <nav class="pf-container site-nav" aria-label="Primary">
+    <a class="brand" href="#top">
+      <span class="brand-mark"><svg lucideBraces aria-hidden="true"></svg></span>
+      {{ title() }}
     </a>
-  </div>
-  <div id="navBar" class="navbar-menu">
-    <div class="navbar-start">
-      <a class="navbar-item" routerLink="/landing" [innerText]="title()"></a>
-    </div>
-  </div>
-</nav>
-<div class="wp-bulma-divider"></div>
+    <ul class="nav-links pf-mono">
+      @for (link of links; track link.fragment) {
+        <li><a [href]="'#' + link.fragment">{{ link.label }}</a></li>
+      }
+    </ul>
+  </nav>
+</header>

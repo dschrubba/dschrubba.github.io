@@ -1,6 +1,3 @@
-<div class="cell">
-  <div class="box">
-    <p class="skill-grid-cell-title has-text-primary" [innerText]="title"></p>
-    <p class="skill-grid-cell-name"  [innerHtml]="text"></p>
-  </div>
-</div>
+<span class="cell-number pf-mono">{{ number() }}</span>
+<h3 class="cell-title">{{ title() }}</h3>
+<p class="cell-text">{{ text() }}</p>

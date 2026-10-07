@@ -1,0 +1,15 @@
+@use 'colours' as c;
+
+.site-footer {
+  border-top: 1px solid c.$border;
+}
+
+.footer-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px;
+  padding-block: 28px;
+  font-size: 13px;
+  color: c.$text-faint;
+}

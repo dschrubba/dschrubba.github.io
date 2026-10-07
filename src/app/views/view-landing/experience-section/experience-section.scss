@@ -1,0 +1,58 @@
+@use 'colours' as c;
+
+.experience {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 64px;
+}
+
+.heading {
+  flex: 1 1 260px;
+}
+
+.entries {
+  flex: 999 1 560px;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.entry {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 32px;
+  padding: 26px 0;
+  border-top: 1px solid c.$border;
+
+  &:last-child {
+    border-bottom: 1px solid c.$border;
+  }
+}
+
+.period {
+  flex: 0 0 160px;
+  font-size: 14px;
+  color: c.$accent-soft;
+}
+
+.entry-body {
+  flex: 1 1 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.entry-title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.entry-text {
+  margin: 0;
+  color: c.$text-muted;
+  font-size: 15px;
+}

@@ -1,0 +1,28 @@
+@use 'vars' as v;
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.groups {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
+  gap: 20px;
+}
+
+.group {
+  padding: 28px;
+  border: 1px solid #2b2e37;
+  border-radius: v.$radius-card;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.group-title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+}

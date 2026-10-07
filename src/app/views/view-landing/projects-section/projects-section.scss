@@ -1,0 +1,24 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.projects-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.all-link {
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(330px, 100%), 1fr));
+  gap: 20px;
+}
