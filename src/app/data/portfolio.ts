@@ -12,10 +12,10 @@ export const HERO_MEDIA = {
 };
 
 /**
- * Per-project image and link, keyed by the `id` used in public/i18n/projects/<lang>.json.
- * Leave `image` out to show the placeholder caption from the JSON.
+ * Per-project link, keyed by the `id` used in public/i18n/projects/<lang>.json.
+ * (Project images are set in that JSON, field `image`.)
  */
-export const PROJECT_MEDIA: Record<string, { image?: string; link?: string }> = {
+export const PROJECT_MEDIA: Record<string, { link?: string }> = {
   'ocr-document-analysis': {},
   'telephony-audio-quality': {},
   'game-data-extraction': {},

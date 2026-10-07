@@ -3,23 +3,19 @@
   "items": [
     {
       "title": "Webanwendungen",
-      "text": "Angular-Frontends und NestJS-Backends in TypeScript – von der Konzeption bis zum Launch.",
-      "image": "public/images-grid/placeholder-1280x720.png"
+      "text": "Angular-Frontends und NestJS-Backends in TypeScript – von der Konzeption bis zum Launch."
     },
     {
       "title": "KI in der Praxis",
-      "text": "Dokumentenanalyse per OCR, Audioqualitätsanalyse und Datenextraktion – KI dort, wo sie wirklich hilft.",
-      "image": "public/images-grid/placeholder-1280x720.png"
+      "text": "Dokumentenanalyse per OCR, Audioqualitätsanalyse und Datenextraktion – KI dort, wo sie wirklich hilft."
     },
     {
       "title": "Mobile Apps",
-      "text": "Cross-Plattform-Apps mit Flutter, Dart und Firebase, gestaltet in Figma.",
-      "image": "public/images-grid/placeholder-1280x720.png"
+      "text": "Cross-Plattform-Apps mit Flutter, Dart und Firebase, gestaltet in Figma."
     },
     {
       "title": "Spiele & Grafik",
-      "text": "Prototypen in Unity und der Flax Engine, Shader in HLSL und WebGL, Reverse Engineering mit Ghidra.",
-      "image": "public/images-grid/placeholder-1280x720.png"
+      "text": "Prototypen in Unity und der Flax Engine, Shader in HLSL und WebGL, Reverse Engineering mit Ghidra."
     }
   ]
 }

@@ -14,17 +14,15 @@ export interface HeroContent {
 
 export interface FocusContent {
   label: string;
-  items: {
-    title: string;
-    text: string;
-    /** Path under public/, without a leading slash, e.g. 'public/images-grid/gnome.webp'. Optional. */
-    image?: string;
-  }[];
+  items: { title: string; text: string }[];
 }
 
 export interface ProjectItem {
-  /** Links the text to its image/link in data/portfolio.ts (PROJECT_MEDIA). */
+  /** Links the text to its optional link in data/portfolio.ts (PROJECT_MEDIA). */
   id: string;
+  /** Card image, path without a leading slash, e.g. 'public/images-grid/chatbot.webp'.
+   *  Shown 16:9, cropped to cover and centred. Leave empty for the placeholder caption. */
+  image?: string;
   category: string;
   title: string;
   text: string;

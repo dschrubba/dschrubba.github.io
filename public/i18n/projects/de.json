@@ -6,6 +6,7 @@
   "items": [
     {
       "id": "ocr-document-analysis",
+      "image": "public/images-grid/placeholder-1280x720.png",
       "category": "KI · Beruflich",
       "title": "Dokumentenanalyse per OCR",
       "text": "KI-basierte Analyse von Dokumenten für ein B2B-Softwareprodukt, aufgebaut auf der Open-Source-OCR-Engine Tesseract.",
@@ -18,6 +19,7 @@
     },
     {
       "id": "telephony-audio-quality",
+      "image": "public/images-grid/placeholder-1280x720.png",
       "category": "KI · Beruflich",
       "title": "Audioqualitätsanalyse für Telefonie",
       "text": "Automatisierte, objektive Bewertung der Audioqualität in der Telefonie mit ViSQOL, einer wahrnehmungsbasierten Metrik für Sprachqualität.",
@@ -30,6 +32,7 @@
     },
     {
       "id": "game-data-extraction",
+      "image": "public/images-grid/placeholder-1280x720.png",
       "category": "KI · Spiele",
       "title": "Datenextraktion für Spiele",
       "text": "KI-gestützte Tools, die Daten aus Spieldateien und -formaten herauslösen – Grundlage für Analyse, Modding und Spielebewahrung.",
@@ -42,6 +45,7 @@
     },
     {
       "id": "ai-chatbot",
+      "image": "public/images-grid/placeholder-1280x720.png",
       "category": "KI · Eigenes Projekt",
       "title": "KI-Chatbot mit Avatar",
       "text": "Ein selbst gehosteter Chatbot mit eigener Persönlichkeit und Avatar, bereitgestellt über eine NestJS-REST-API und angebunden an eine Streaming-Plattform – inklusive Kommunikation zwischen verschiedenen Systemen.",
@@ -54,6 +58,7 @@
     },
     {
       "id": "stream-schedule",
+      "image": "public/images-grid/placeholder-1280x720.png",
       "category": "Web",
       "title": "Dynamischer Streamplan",
       "text": "Eine Mobile-First-Web-App für Streamer: REST-API und Angular-Frontend, mit Google-Docs-Integration zur Planung.",
@@ -66,6 +71,7 @@
     },
     {
       "id": "headless-cms-sites",
+      "image": "public/images-grid/placeholder-1280x720.png",
       "category": "Web · Freiberuflich",
       "title": "Websites mit Headless CMS",
       "text": "Mehrere Websites mit Strapi und Angular, inklusive benutzerdefinierter Content-Typen und Authentifizierung.",
