@@ -1,13 +1,30 @@
 <header class="site-header">
-  <nav class="pf-container site-nav" aria-label="Primary">
+  <nav class="pf-container site-nav" [attr.aria-label]="'nav.label' | transloco">
     <a class="brand" href="#top">
       <span class="brand-mark"><svg lucideBraces aria-hidden="true"></svg></span>
       {{ title() }}
     </a>
-    <ul class="nav-links pf-mono">
-      @for (link of links; track link.fragment) {
-        <li><a [href]="'#' + link.fragment">{{ link.label }}</a></li>
-      }
-    </ul>
+    <div class="nav-end">
+      <ul class="nav-links pf-mono">
+        @for (link of links; track link) {
+          <li>
+            <a [href]="'#' + link">{{ 'nav.' + link | transloco }}</a>
+          </li>
+        }
+      </ul>
+      <div class="lang-switch pf-mono" role="group" [attr.aria-label]="'nav.language' | transloco">
+        @for (lang of language.languages; track lang) {
+          <button
+            type="button"
+            [class.is-active]="language.active() === lang"
+            [attr.aria-pressed]="language.active() === lang"
+            [attr.lang]="lang"
+            (click)="language.use(lang)"
+          >
+            {{ lang }}
+          </button>
+        }
+      </div>
+    </div>
   </nav>
 </header>

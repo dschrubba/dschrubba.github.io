@@ -1,18 +1,20 @@
 <section id="stack" class="pf-section stack" aria-labelledby="stack-title">
-  <div class="pf-heading">
-    <span class="pf-label">/stack</span>
-    <h2 id="stack-title" class="pf-section-title">Tools I reach for</h2>
-  </div>
-  <div class="groups">
-    @for (group of groups; track group.title) {
-      <div class="group">
-        <h3 class="group-title">{{ group.title }}</h3>
-        <ul class="pf-chips is-large">
-          @for (item of group.items; track item) {
-            <li>{{ item }}</li>
-          }
-        </ul>
-      </div>
-    }
-  </div>
+  @if (content(); as c) {
+    <div class="pf-heading">
+      <span class="pf-label">{{ c.label }}</span>
+      <h2 id="stack-title" class="pf-section-title">{{ c.title }}</h2>
+    </div>
+    <div class="groups">
+      @for (group of c.groups; track $index) {
+        <div class="group">
+          <h3 class="group-title">{{ group.title }}</h3>
+          <ul class="pf-chips is-large">
+            @for (item of group.items; track $index) {
+              <li>{{ item }}</li>
+            }
+          </ul>
+        </div>
+      }
+    </div>
+  }
 </section>

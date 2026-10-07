@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { EXPERIENCE } from 'src/app/data/portfolio';
+import { ExperienceContent } from 'src/app/i18n/content.types';
+import { scopedContent } from 'src/app/i18n/scoped-content';
 
 @Component({
   imports: [],
@@ -8,5 +9,5 @@ import { EXPERIENCE } from 'src/app/data/portfolio';
   templateUrl: './experience-section.html',
 })
 export class ExperienceSection {
-  protected readonly entries = EXPERIENCE;
+  protected readonly content = scopedContent<ExperienceContent>('experience');
 }

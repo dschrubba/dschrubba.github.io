@@ -1,17 +1,19 @@
 <section id="experience" class="pf-section experience" aria-labelledby="exp-title">
-  <div class="pf-heading heading">
-    <span class="pf-label">/experience</span>
-    <h2 id="exp-title" class="pf-section-title">Where I've worked</h2>
-  </div>
-  <ol class="entries">
-    @for (entry of entries; track $index) {
-      <li class="entry">
-        <span class="period pf-mono">{{ entry.period }}</span>
-        <div class="entry-body">
-          <h3 class="entry-title">{{ entry.title }}</h3>
-          <p class="entry-text">{{ entry.text }}</p>
-        </div>
-      </li>
-    }
-  </ol>
+  @if (content(); as c) {
+    <div class="pf-heading heading">
+      <span class="pf-label">{{ c.label }}</span>
+      <h2 id="exp-title" class="pf-section-title">{{ c.title }}</h2>
+    </div>
+    <ol class="entries">
+      @for (entry of c.items; track $index) {
+        <li class="entry">
+          <span class="period pf-mono">{{ entry.period }}</span>
+          <div class="entry-body">
+            <h3 class="entry-title">{{ entry.title }}</h3>
+            <p class="entry-text">{{ entry.text }}</p>
+          </div>
+        </li>
+      }
+    </ol>
+  }
 </section>

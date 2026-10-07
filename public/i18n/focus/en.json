@@ -1,0 +1,9 @@
+{
+  "label": "What I do",
+  "items": [
+    { "title": "Game preservation", "text": "Reverse engineering formats and runtimes so classic games keep running." },
+    { "title": "Engine & graphics", "text": "Character controllers, HTML-based UI and retro shaders for Flax Engine." },
+    { "title": "Modding & localization", "text": "Repacking archives and translating games, from Japanese sources to German releases." },
+    { "title": "Web development", "text": "Static, markdown-driven Angular sites that are fast and cheap to host." }
+  ]
+}

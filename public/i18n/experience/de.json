@@ -1,0 +1,9 @@
+{
+  "label": "/werdegang",
+  "title": "Wo ich gearbeitet habe",
+  "items": [
+    { "period": "[JAHR] – heute", "title": "Unabhängiger Entwickler & Forscher", "text": "Selbstbestimmte Arbeit in Spieleentwicklung, Spielebewahrung, Modding und Webprojekten." },
+    { "period": "[JAHR] – [JAHR]", "title": "[ROLLE] · [FIRMA]", "text": "[Eine Zeile dazu, was du dort gebaut oder verantwortet hast.]" },
+    { "period": "[JAHR] – [JAHR]", "title": "[ABSCHLUSS / AUSBILDUNG] · [EINRICHTUNG]", "text": "[Schwerpunkt oder besondere Arbeit.]" }
+  ]
+}

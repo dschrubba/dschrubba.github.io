@@ -1,0 +1,9 @@
+{
+  "label": "/stack",
+  "title": "Meine Werkzeuge",
+  "groups": [
+    { "title": "Web", "items": ["Angular", "TypeScript", "RxJS", "SCSS · Bulma", "Tailwind CSS", "WordPress-Themes", "PocketBase"] },
+    { "title": "Spiele & Grafik", "items": ["Flax Engine", "HLSL", "Panda3D", "Ultralight", "Source Engine"] },
+    { "title": "Recherche & Tools", "items": ["Python", "Reverse Engineering", "Archivformate", "Textkodierungen", "DE · EN · JA"] }
+  ]
+}

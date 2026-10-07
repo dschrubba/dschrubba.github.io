@@ -1,7 +1,13 @@
-<section class="pf-section focus" aria-label="What I do">
-  <div class="focus-grid">
-    @for (area of areas; track area.title; let i = $index) {
-      <app-skill-grid-cell [index]="i + 1" [title]="area.title" [text]="area.text"></app-skill-grid-cell>
-    }
-  </div>
+<section class="pf-section focus" [attr.aria-label]="content()?.label">
+  @if (content(); as c) {
+    <div class="focus-grid">
+      @for (area of c.items; track $index) {
+        <app-skill-grid-cell
+          [index]="$index + 1"
+          [title]="area.title"
+          [text]="area.text"
+        ></app-skill-grid-cell>
+      }
+    </div>
+  }
 </section>

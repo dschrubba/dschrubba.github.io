@@ -1,0 +1,9 @@
+{
+  "label": "/experience",
+  "title": "Where I've worked",
+  "items": [
+    { "period": "[YEAR] – now", "title": "Independent developer & researcher", "text": "Self-directed work across game development, preservation, modding and web projects." },
+    { "period": "[YEAR] – [YEAR]", "title": "[ROLE] · [COMPANY]", "text": "[One line on what you built or owned there.]" },
+    { "period": "[YEAR] – [YEAR]", "title": "[DEGREE / TRAINING] · [INSTITUTION]", "text": "[Focus or notable work.]" }
+  ]
+}

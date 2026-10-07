@@ -1,34 +1,36 @@
 <section id="top" class="hero" aria-labelledby="hero-title">
   <img
     class="hero-bg"
-    [src]="hero.background"
-    [attr.srcset]="hero.backgroundSrcset"
+    [src]="media.background"
+    [attr.srcset]="media.backgroundSrcset"
     sizes="100vw"
     alt=""
     fetchpriority="high"
   />
   <div class="pf-container hero-section">
     <div class="hero-copy">
-      <h1 id="hero-title" class="hero-title">
-        Hi, I'm {{ hero.name }}.<br />
-        <span class="pf-muted">{{ hero.tagline }}</span>
-      </h1>
-      <p class="hero-intro" [innerHTML]="hero.intro"></p>
-      <div class="hero-actions">
-        <a class="pf-button is-accent" href="#work">
-          See selected work
-          <svg lucideArrowDown aria-hidden="true"></svg>
-        </a>
-        <a class="pf-button is-outline" [href]="githubUrl">
-          <app-github-icon></app-github-icon>
-          GitHub
-        </a>
-      </div>
+      @if (content(); as c) {
+        <h1 id="hero-title" class="hero-title">
+          {{ c.greeting }}<br />
+          <span class="pf-muted">{{ c.tagline }}</span>
+        </h1>
+        <p class="hero-intro" [innerHTML]="c.intro"></p>
+        <div class="hero-actions">
+          <a class="pf-button is-accent" href="#work">
+            {{ c.ctaWork }}
+            <svg lucideArrowDown aria-hidden="true"></svg>
+          </a>
+          <a class="pf-button is-outline" [href]="githubUrl">
+            <app-github-icon></app-github-icon>
+            {{ c.ctaGithub }}
+          </a>
+        </div>
+      }
     </div>
 
     <figure class="photo">
-      @if (hero.photo) {
-        <img [src]="hero.photo" [alt]="hero.photoAlt" width="880" height="1174" />
+      @if (media.photo) {
+        <img [src]="media.photo" [alt]="content()?.photoAlt ?? ''" width="880" height="1174" />
       }
     </figure>
   </div>

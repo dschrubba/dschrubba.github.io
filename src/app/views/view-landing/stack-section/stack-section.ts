@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { STACK } from 'src/app/data/portfolio';
+import { StackContent } from 'src/app/i18n/content.types';
+import { scopedContent } from 'src/app/i18n/scoped-content';
 
 @Component({
   imports: [],
@@ -8,5 +9,5 @@ import { STACK } from 'src/app/data/portfolio';
   templateUrl: './stack-section.html',
 })
 export class StackSection {
-  protected readonly groups = STACK;
+  protected readonly content = scopedContent<StackContent>('stack');
 }

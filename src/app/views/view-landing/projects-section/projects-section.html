@@ -1,14 +1,16 @@
 <section id="work" class="pf-section projects" aria-labelledby="work-title">
-  <div class="projects-head">
-    <div class="pf-heading">
-      <span class="pf-label">/work</span>
-      <h2 id="work-title" class="pf-section-title">Selected projects</h2>
+  @if (content(); as c) {
+    <div class="projects-head">
+      <div class="pf-heading">
+        <span class="pf-label">{{ c.label }}</span>
+        <h2 id="work-title" class="pf-section-title">{{ c.title }}</h2>
+      </div>
+      <a class="pf-mono all-link" [href]="githubUrl">{{ c.allRepos }}</a>
     </div>
-    <a class="pf-mono all-link" [href]="githubUrl">all repositories →</a>
-  </div>
-  <div class="projects-grid">
-    @for (project of projects; track project.title) {
-      <app-project-card [project]="project"></app-project-card>
-    }
-  </div>
+    <div class="projects-grid">
+      @for (project of c.items; track project.id) {
+        <app-project-card [project]="project" [tagsLabel]="c.tagsLabel"></app-project-card>
+      }
+    </div>
+  }
 </section>

@@ -1,0 +1,14 @@
+{
+  "label": "/projekte",
+  "title": "Ausgewählte Projekte",
+  "allRepos": "alle Repositories →",
+  "tagsLabel": "Technologien",
+  "items": [
+    { "id": "gnome-port", "category": "Reverse Engineering", "title": "G-NOME (1997) Port", "text": "Neuimplementierung der Skript-VM und Asset-Pipeline des Originalspiels auf Panda3D – von dekompilierten Daten bis zum spielbaren Build.", "tags": ["Python", "Panda3D", "Binärformate"], "placeholder": "[SCREENSHOT — G-NOME Port]" },
+    { "id": "retro-shaders", "category": "Grafik", "title": "Retro-Shader für Flax", "text": "CRT-, NTSC- und PSX-Looks als Post-Processing für die Flax Engine – abgestimmt, damit sie wie echte Hardware wirken und nicht wie ein Filter.", "tags": ["HLSL", "Flax Engine"], "placeholder": "[SCREENSHOT — CRT / PSX Shader]" },
+    { "id": "soulsource", "category": "Gameplay", "title": "SoulSource Controller", "text": "Die Charakterbewegung aus Half-Life 2 (Source Engine), als wiederverwendbares Plugin auf die Flax Engine portiert.", "tags": ["Flax Engine", "Physik"], "placeholder": "[SCREENSHOT — SoulSource]" },
+    { "id": "rosenkreuzstilette", "category": "Lokalisierung", "title": "Rosenkreuzstilette — Deutsch", "text": "Eine deutsche Fan-Übersetzung: Tools zum Neupacken der DxLib-Archive plus ein kompletter Durchgang durch die Szenario-Dialoge.", "tags": ["DxLib", "JA → DE", "Tooling"], "placeholder": "[SCREENSHOT — übersetzter Dialog]" },
+    { "id": "chronicles-timeline", "category": "Web", "title": "ChroniclesTimeline", "text": "Eine Timeline-Website ohne Datenbank: Markdown-Datei ablegen, ein Build-Schritt indexiert sie, und die Seite scrollt per Link zu jedem Eintrag.", "tags": ["Angular", "Signals", "Bulma"], "placeholder": "[SCREENSHOT — Timeline]" },
+    { "id": "gnome-essay", "category": "Recherche", "title": "G-NOME: ein Video-Essay", "text": "Ein deutschsprachiger Video-Essay über die Geschichte des Spiels, gestützt auf Primärquellen, die beim Port zutage kamen.", "tags": ["Recherche", "Drehbuch"], "placeholder": "[THUMBNAIL — Video-Essay]" }
+  ]
+}

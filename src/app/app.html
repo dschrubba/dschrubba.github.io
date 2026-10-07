@@ -2,7 +2,7 @@
 <router-outlet></router-outlet>
 <footer class="site-footer">
   <div class="pf-container footer-inner pf-mono">
-    <span>© {{ year }} Daniel · dschrubba.github.io</span>
-    <span [innerHTML]="mdAppFooter"></span>
+    <span>{{ 'footer.copyright' | transloco: { year } }}</span>
+    <span [innerHTML]="'footer.builtWith' | transloco"></span>
   </div>
 </footer>

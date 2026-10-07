@@ -1,0 +1,14 @@
+{
+  "label": "/work",
+  "title": "Selected projects",
+  "allRepos": "all repositories →",
+  "tagsLabel": "Technologies",
+  "items": [
+    { "id": "gnome-port", "category": "Reverse engineering", "title": "G-NOME (1997) port", "text": "Reimplementing the original game's script VM and asset pipeline on Panda3D, from decompiled data to a playable build.", "tags": ["Python", "Panda3D", "Binary formats"], "placeholder": "[SCREENSHOT — G-NOME port]" },
+    { "id": "retro-shaders", "category": "Graphics", "title": "Retro shaders for Flax", "text": "CRT, NTSC and PSX-era looks as post-processing for Flax Engine, tuned to read like real hardware rather than a filter.", "tags": ["HLSL", "Flax Engine"], "placeholder": "[SCREENSHOT — CRT / PSX shader]" },
+    { "id": "soulsource", "category": "Gameplay", "title": "SoulSource controller", "text": "Half-Life 2's Source Engine character movement, ported to Flax Engine as a reusable plugin.", "tags": ["Flax Engine", "Physics"], "placeholder": "[SCREENSHOT — SoulSource]" },
+    { "id": "rosenkreuzstilette", "category": "Localization", "title": "Rosenkreuzstilette — German", "text": "A German fan translation: DxLib archive repacking tools plus a full pass over the scenario dialogue.", "tags": ["DxLib", "JA → DE", "Tooling"], "placeholder": "[SCREENSHOT — translated dialogue]" },
+    { "id": "chronicles-timeline", "category": "Web", "title": "ChroniclesTimeline", "text": "A database-free timeline site: drop a markdown file in, a build step indexes it, and the page scrolls to any entry by link.", "tags": ["Angular", "Signals", "Bulma"], "placeholder": "[SCREENSHOT — timeline]" },
+    { "id": "gnome-essay", "category": "Research", "title": "G-NOME: a video essay", "text": "A German-language video essay on the game's history, built on primary sources dug up during the port.", "tags": ["Research", "Scriptwriting"], "placeholder": "[THUMBNAIL — video essay]" }
+  ]
+}

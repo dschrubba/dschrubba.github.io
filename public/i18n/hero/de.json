@@ -1,0 +1,9 @@
+{
+  "greeting": "Hi, ich bin Daniel.",
+  "tagline": "Ich baue Software dort, wo Spiele, Geschichte und das Web aufeinandertreffen.",
+  "intro": "Unabhängiger Entwickler und kreativer Forscher. Ich analysiere und bewahre klassische Spiele, schreibe Engine-Tools und Shader und baue schnelle, inhaltsgetriebene Angular-Websites.<br/><br/>Softwareentwickler durch und durch – mit Freude an kniffligen Herausforderungen. Ich sehe darin Chancen, kreative Lösungen zu finden – auch in neuen oder unerschlossenen Technologien.<br/><br/>Sowohl in agilen Teams als auch eigenständig habe ich Softwarelösungen von der Konzeption bis zum Launch begleitet und dabei stets die Nutzeranforderungen im Blick behalten. Diese Kombination aus pragmatischer Problemlösung, technologischer Vielseitigkeit und einem Bewusstsein für UI/UX möchte ich einbringen, um bei der Entwicklung innovativer Softwarelösungen mitzuwirken.",
+  "city": "Krefeld, NRW, Deutschland",
+  "ctaWork": "Ausgewählte Projekte",
+  "ctaGithub": "GitHub",
+  "photoAlt": "Porträt von Daniel"
+}

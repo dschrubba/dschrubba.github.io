@@ -1,0 +1,9 @@
+{
+  "label": "Was ich mache",
+  "items": [
+    { "title": "Spielebewahrung", "text": "Dateiformate und Laufzeitumgebungen entschlüsseln, damit klassische Spiele weiter laufen." },
+    { "title": "Engine & Grafik", "text": "Character Controller, HTML-basierte UIs und Retro-Shader für die Flax Engine." },
+    { "title": "Modding & Lokalisierung", "text": "Archive neu packen und Spiele übersetzen – von japanischen Quellen bis zur deutschen Fassung." },
+    { "title": "Webentwicklung", "text": "Statische, Markdown-basierte Angular-Websites, die schnell und günstig zu hosten sind." }
+  ]
+}

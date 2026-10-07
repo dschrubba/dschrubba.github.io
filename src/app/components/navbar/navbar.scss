@@ -48,6 +48,13 @@
   }
 }
 
+.nav-end {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 28px;
+}
+
 .nav-links {
   display: flex;
   flex-wrap: wrap;
@@ -64,6 +71,36 @@
 
     &:hover {
       color: c.$accent-soft;
+    }
+  }
+}
+
+.lang-switch {
+  display: inline-flex;
+  padding: 3px;
+  border: 1px solid c.$border-strong;
+  border-radius: 999px;
+
+  button {
+    min-width: 44px;
+    min-height: 36px;
+    padding: 0 10px;
+    border: 0;
+    border-radius: 999px;
+    background: transparent;
+    color: c.$text-muted;
+    font: inherit;
+    font-size: 13px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    &:hover {
+      color: c.$text;
+    }
+
+    &.is-active {
+      background: c.$accent;
+      color: c.$on-accent;
     }
   }
 }

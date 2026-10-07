@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "title": "Daniel · dschrubba — Entwickler-Portfolio",
+    "description": "Unabhängiger Entwickler und kreativer Forscher: Spielebewahrung, Engine-Tools und Angular-Websites."
+  },
+  "nav": {
+    "label": "Hauptnavigation",
+    "work": "projekte",
+    "experience": "werdegang",
+    "stack": "stack",
+    "contact": "kontakt",
+    "language": "Sprache"
+  },
+  "footer": {
+    "copyright": "© {{year}} Daniel · dschrubba.github.io",
+    "builtWith": "Gebaut mit Angular & <a target=\"_blank\" href=\"https://bulma.io/\">Bulma</a>"
+  }
+}

@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
-import { GITHUB_URL, PROJECTS } from 'src/app/data/portfolio';
+import { GITHUB_URL } from 'src/app/data/portfolio';
+import { ProjectsContent } from 'src/app/i18n/content.types';
+import { scopedContent } from 'src/app/i18n/scoped-content';
 import { ProjectCard } from './project-card/project-card';
 
 @Component({
@@ -9,6 +11,6 @@ import { ProjectCard } from './project-card/project-card';
   templateUrl: './projects-section.html',
 })
 export class ProjectsSection {
-  protected readonly projects = PROJECTS;
+  protected readonly content = scopedContent<ProjectsContent>('projects');
   protected readonly githubUrl = GITHUB_URL;
 }
