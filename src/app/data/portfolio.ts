@@ -16,10 +16,10 @@ export const HERO_MEDIA = {
  * Leave `image` out to show the placeholder caption from the JSON.
  */
 export const PROJECT_MEDIA: Record<string, { image?: string; link?: string }> = {
-  'gnome-port': {},
-  'retro-shaders': {},
-  soulsource: {},
-  rosenkreuzstilette: {},
-  'chronicles-timeline': {},
-  'gnome-essay': {},
+  'ocr-document-analysis': {},
+  'telephony-audio-quality': {},
+  'game-data-extraction': {},
+  'ai-chatbot': {},
+  'stream-schedule': {},
+  'headless-cms-sites': {},
 };

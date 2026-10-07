@@ -4,11 +4,77 @@
   "allRepos": "alle Repositories →",
   "tagsLabel": "Technologien",
   "items": [
-    { "id": "gnome-port", "category": "Reverse Engineering", "title": "G-NOME (1997) Port", "text": "Neuimplementierung der Skript-VM und Asset-Pipeline des Originalspiels auf Panda3D – von dekompilierten Daten bis zum spielbaren Build.", "tags": ["Python", "Panda3D", "Binärformate"], "placeholder": "[SCREENSHOT — G-NOME Port]" },
-    { "id": "retro-shaders", "category": "Grafik", "title": "Retro-Shader für Flax", "text": "CRT-, NTSC- und PSX-Looks als Post-Processing für die Flax Engine – abgestimmt, damit sie wie echte Hardware wirken und nicht wie ein Filter.", "tags": ["HLSL", "Flax Engine"], "placeholder": "[SCREENSHOT — CRT / PSX Shader]" },
-    { "id": "soulsource", "category": "Gameplay", "title": "SoulSource Controller", "text": "Die Charakterbewegung aus Half-Life 2 (Source Engine), als wiederverwendbares Plugin auf die Flax Engine portiert.", "tags": ["Flax Engine", "Physik"], "placeholder": "[SCREENSHOT — SoulSource]" },
-    { "id": "rosenkreuzstilette", "category": "Lokalisierung", "title": "Rosenkreuzstilette — Deutsch", "text": "Eine deutsche Fan-Übersetzung: Tools zum Neupacken der DxLib-Archive plus ein kompletter Durchgang durch die Szenario-Dialoge.", "tags": ["DxLib", "JA → DE", "Tooling"], "placeholder": "[SCREENSHOT — übersetzter Dialog]" },
-    { "id": "chronicles-timeline", "category": "Web", "title": "ChroniclesTimeline", "text": "Eine Timeline-Website ohne Datenbank: Markdown-Datei ablegen, ein Build-Schritt indexiert sie, und die Seite scrollt per Link zu jedem Eintrag.", "tags": ["Angular", "Signals", "Bulma"], "placeholder": "[SCREENSHOT — Timeline]" },
-    { "id": "gnome-essay", "category": "Recherche", "title": "G-NOME: ein Video-Essay", "text": "Ein deutschsprachiger Video-Essay über die Geschichte des Spiels, gestützt auf Primärquellen, die beim Port zutage kamen.", "tags": ["Recherche", "Drehbuch"], "placeholder": "[THUMBNAIL — Video-Essay]" }
+    {
+      "id": "ocr-document-analysis",
+      "category": "KI · Beruflich",
+      "title": "Dokumentenanalyse per OCR",
+      "text": "KI-basierte Analyse von Dokumenten für ein B2B-Softwareprodukt, aufgebaut auf der Open-Source-OCR-Engine Tesseract.",
+      "tags": [
+        "Tesseract OCR",
+        "KI",
+        "Dokumentenanalyse"
+      ],
+      "placeholder": "[SCREENSHOT — Dokumentenanalyse]"
+    },
+    {
+      "id": "telephony-audio-quality",
+      "category": "KI · Beruflich",
+      "title": "Audioqualitätsanalyse für Telefonie",
+      "text": "Automatisierte, objektive Bewertung der Audioqualität in der Telefonie mit ViSQOL, einer wahrnehmungsbasierten Metrik für Sprachqualität.",
+      "tags": [
+        "ViSQOL",
+        "KI",
+        "Audio"
+      ],
+      "placeholder": "[SCREENSHOT — Audioanalyse]"
+    },
+    {
+      "id": "game-data-extraction",
+      "category": "KI · Spiele",
+      "title": "Datenextraktion für Spiele",
+      "text": "KI-gestützte Tools, die Daten aus Spieldateien und -formaten herauslösen – Grundlage für Analyse, Modding und Spielebewahrung.",
+      "tags": [
+        "Python",
+        "KI",
+        "Spieldaten"
+      ],
+      "placeholder": "[SCREENSHOT — Extraktions-Tool]"
+    },
+    {
+      "id": "ai-chatbot",
+      "category": "KI · Eigenes Projekt",
+      "title": "KI-Chatbot mit Avatar",
+      "text": "Ein selbst gehosteter Chatbot mit eigener Persönlichkeit und Avatar, bereitgestellt über eine NestJS-REST-API und angebunden an eine Streaming-Plattform – inklusive Kommunikation zwischen verschiedenen Systemen.",
+      "tags": [
+        "NestJS",
+        "REST API",
+        "Self-hosted"
+      ],
+      "placeholder": "[SCREENSHOT — Chatbot]"
+    },
+    {
+      "id": "stream-schedule",
+      "category": "Web",
+      "title": "Dynamischer Streamplan",
+      "text": "Eine Mobile-First-Web-App für Streamer: REST-API und Angular-Frontend, mit Google-Docs-Integration zur Planung.",
+      "tags": [
+        "Angular",
+        "REST API",
+        "Google Docs"
+      ],
+      "placeholder": "[SCREENSHOT — Streamplan]"
+    },
+    {
+      "id": "headless-cms-sites",
+      "category": "Web · Freiberuflich",
+      "title": "Websites mit Headless CMS",
+      "text": "Mehrere Websites mit Strapi und Angular, inklusive benutzerdefinierter Content-Typen und Authentifizierung.",
+      "tags": [
+        "Strapi",
+        "Angular",
+        "Authentifizierung"
+      ],
+      "placeholder": "[SCREENSHOT — Website]"
+    }
   ]
 }

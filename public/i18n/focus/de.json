@@ -1,9 +1,21 @@
 {
   "label": "Was ich mache",
   "items": [
-    { "title": "Spielebewahrung", "text": "Dateiformate und Laufzeitumgebungen entschlüsseln, damit klassische Spiele weiter laufen." },
-    { "title": "Engine & Grafik", "text": "Character Controller, HTML-basierte UIs und Retro-Shader für die Flax Engine." },
-    { "title": "Modding & Lokalisierung", "text": "Archive neu packen und Spiele übersetzen – von japanischen Quellen bis zur deutschen Fassung." },
-    { "title": "Webentwicklung", "text": "Statische, Markdown-basierte Angular-Websites, die schnell und günstig zu hosten sind." }
+    {
+      "title": "Webanwendungen",
+      "text": "Angular-Frontends und NestJS-Backends in TypeScript – von der Konzeption bis zum Launch."
+    },
+    {
+      "title": "KI in der Praxis",
+      "text": "Dokumentenanalyse per OCR, Audioqualitätsanalyse und Datenextraktion – KI dort, wo sie wirklich hilft."
+    },
+    {
+      "title": "Mobile Apps",
+      "text": "Cross-Plattform-Apps mit Flutter, Dart und Firebase, gestaltet in Figma."
+    },
+    {
+      "title": "Spiele & Grafik",
+      "text": "Prototypen in Unity und der Flax Engine, Shader in HLSL und WebGL, Reverse Engineering mit Ghidra."
+    }
   ]
 }

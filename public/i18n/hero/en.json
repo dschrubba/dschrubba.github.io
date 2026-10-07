@@ -1,7 +1,7 @@
 {
   "greeting": "Hi, I'm Daniel.",
-  "tagline": "I build software where games, history and the web meet.",
-  "intro": "Independent developer and creative researcher. I reverse-engineer and preserve classic games, write engine tooling and shaders, and build fast, content-driven Angular sites.<br/><br/>I’m a dedicated software developer who loves a good challenge. I see complex problems as the perfect opportunity to build creative solutions, often using new and emerging technologies.<br/><br/>From concept to launch, I’ve delivered user-focused software both independently and in agile teams. I’m excited to bring my pragmatic approach to problem-solving, technical versatility, and UI/UX awareness to a team creating innovative software solutions.",
+  "tagline": "An experienced developer who isn't afraid of AI.",
+  "intro": "I build web applications with Angular, NestJS and TypeScript – and I’ve worked with AI in practice: data extraction tools for games, audio quality analysis for telephony and document analysis with the open-source Tesseract OCR engine.<br/><br/>I’m a dedicated software developer who loves a good challenge. I see complex problems as the perfect opportunity to build creative solutions, often using new and emerging technologies.<br/><br/>From concept to launch, I’ve delivered user-focused software both independently and in agile teams. I’m excited to bring my pragmatic approach to problem-solving, technical versatility, and UI/UX awareness to a team creating innovative software solutions.",
   "city": "Krefeld, NRW, Germany",
   "ctaWork": "See selected work",
   "ctaGithub": "GitHub",

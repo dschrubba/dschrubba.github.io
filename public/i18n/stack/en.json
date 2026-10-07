@@ -2,8 +2,46 @@
   "label": "/stack",
   "title": "Tools I reach for",
   "groups": [
-    { "title": "Web", "items": ["Angular", "TypeScript", "RxJS", "SCSS · Bulma", "Tailwind CSS", "WordPress themes", "PocketBase"] },
-    { "title": "Games & graphics", "items": ["Flax Engine", "HLSL", "Panda3D", "Ultralight", "Source Engine"] },
-    { "title": "Research & tooling", "items": ["Python", "Reverse engineering", "Archive formats", "Text encodings", "DE · EN · JA"] }
+    {
+      "title": "Web & backend",
+      "items": [
+        "TypeScript / JS",
+        "Angular",
+        "NestJS",
+        "C#",
+        "Java",
+        "MS SQL",
+        "Strapi"
+      ]
+    },
+    {
+      "title": "Mobile & design",
+      "items": [
+        "Dart",
+        "Flutter",
+        "Firebase / Firestore",
+        "Figma"
+      ]
+    },
+    {
+      "title": "AI & tooling",
+      "items": [
+        "Python",
+        "Tesseract OCR",
+        "ViSQOL",
+        "Jira"
+      ]
+    },
+    {
+      "title": "Games & graphics",
+      "items": [
+        "Unity",
+        "Flax Engine",
+        "Blender",
+        "HLSL",
+        "WebGL",
+        "Ghidra"
+      ]
+    }
   ]
 }

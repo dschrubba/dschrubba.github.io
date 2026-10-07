@@ -1,9 +1,31 @@
 {
   "label": "/experience",
-  "title": "Where I've worked",
+  "title": "Experience & education",
   "items": [
-    { "period": "[YEAR] – now", "title": "Independent developer & researcher", "text": "Self-directed work across game development, preservation, modding and web projects." },
-    { "period": "[YEAR] – [YEAR]", "title": "[ROLE] · [COMPANY]", "text": "[One line on what you built or owned there.]" },
-    { "period": "[YEAR] – [YEAR]", "title": "[DEGREE / TRAINING] · [INSTITUTION]", "text": "[Focus or notable work.]" }
+    {
+      "period": "03/2025 – 12/2025",
+      "title": "Professional training (remote)",
+      "text": "Design fundamentals with Figma; cross-platform mobile development with Dart, Flutter and Firebase/Firestore."
+    },
+    {
+      "period": "Freelance",
+      "title": "Freelance & practice projects",
+      "text": "Headless-CMS websites with Strapi and Angular, an AI chatbot, a streaming schedule app, and AI-assisted coding for data analysis, code review and debugging."
+    },
+    {
+      "period": "03/2021 – 11/2022",
+      "title": "Software Developer · B2B software company",
+      "text": "Complex web applications with Angular and NestJS in TypeScript; AI-based solutions with Tesseract OCR and ViSQOL."
+    },
+    {
+      "period": "06/2018 – 03/2021",
+      "title": "Software Developer · ERP/CRM software company",
+      "text": "Angular frontends in TypeScript, extending a complex C# backend, Jira plugins in Java and database development with MS SQL."
+    },
+    {
+      "period": "08/2015 – 06/2018",
+      "title": "Vocational college · Computer science",
+      "text": "University entrance qualification (Fachhochschulreife) and training as a state-certified IT assistant."
+    }
   ]
 }
