@@ -3,9 +3,30 @@
 :host {
   display: flex;
   flex-direction: column;
+  background: #16181d;
+}
+
+// Image fills a 16:9 box: cropped to cover, centred.
+.cell-media {
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: c.$surface-sunken;
+  border-bottom: 1px solid c.$border;
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+.cell-body {
+  display: flex;
+  flex-direction: column;
   gap: 10px;
   padding: 28px;
-  background: #16181d;
 }
 
 .cell-number {

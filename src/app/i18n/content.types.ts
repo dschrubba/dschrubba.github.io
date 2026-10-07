@@ -14,7 +14,12 @@ export interface HeroContent {
 
 export interface FocusContent {
   label: string;
-  items: { title: string; text: string }[];
+  items: {
+    title: string;
+    text: string;
+    /** Path under public/, without a leading slash, e.g. 'public/images-grid/gnome.webp'. Optional. */
+    image?: string;
+  }[];
 }
 
 export interface ProjectItem {

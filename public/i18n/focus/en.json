@@ -3,19 +3,23 @@
   "items": [
     {
       "title": "Web applications",
-      "text": "Angular frontends and NestJS backends in TypeScript – from concept to launch."
+      "text": "Angular frontends and NestJS backends in TypeScript – from concept to launch.",
+      "image": "public/images-grid/placeholder-1280x720.png"
     },
     {
       "title": "AI in practice",
-      "text": "OCR document analysis, audio quality analysis and data extraction – AI where it actually helps."
+      "text": "OCR document analysis, audio quality analysis and data extraction – AI where it actually helps.",
+      "image": "public/images-grid/placeholder-1280x720.png"
     },
     {
       "title": "Mobile apps",
-      "text": "Cross-platform apps with Flutter, Dart and Firebase, designed in Figma."
+      "text": "Cross-platform apps with Flutter, Dart and Firebase, designed in Figma.",
+      "image": "public/images-grid/placeholder-1280x720.png"
     },
     {
       "title": "Games & graphics",
-      "text": "Prototypes in Unity and Flax Engine, shaders in HLSL and WebGL, reverse engineering with Ghidra."
+      "text": "Prototypes in Unity and Flax Engine, shaders in HLSL and WebGL, reverse engineering with Ghidra.",
+      "image": "public/images-grid/placeholder-1280x720.png"
     }
   ]
 }
