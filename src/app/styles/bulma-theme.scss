@@ -1,0 +1,36 @@
+@use "colours" as c;
+
+// Bulma compiled from Sass, configured with our palette.
+// The no-dark-mode build is used so the OS dark setting doesn't
+// swap the background/text colours for Bulma's own dark scheme.
+@use "bulma/versions/bulma-no-dark-mode" with (
+  $primary: c.$accent,
+  $link: c.$link,
+  $text: c.$text,
+  $text-strong: c.$text,
+  $text-weak: c.$text-light,
+  $custom-colors: (
+    // Bulma's "dark" doubles as our panel colour: is-dark, has-background-dark
+    "dark": (c.$panel, c.$on-panel),
+  )
+);
+
+// Bulma 1.x derives scheme and text colours from HSL lightness values,
+// so the exact palette colours are pinned via its CSS variables.
+:root {
+  --bulma-scheme-main: #{c.$background};
+  --bulma-body-background-color: #{c.$background};
+  --bulma-text: #{c.$text};
+  --bulma-text-strong: #{c.$text};
+  --bulma-text-weak: #{c.$text-light};
+  --bulma-link-text: #{c.$link};
+}
+
+// Links: no underline, in any state.
+a,
+a:hover,
+a:focus,
+.content a,
+.message-body a {
+  text-decoration: none;
+}
