@@ -18,7 +18,7 @@ export function initialLanguage(): Language {
     const saved = localStorage.getItem(STORAGE_KEY);
     if (isLanguage(saved)) return saved;
   } catch {
-    // Storage blocked (private mode etc.) — fall through.
+    // Storage blocked (private mode etc.), fall through
   }
   return getBrowserLang() === 'de' ? 'de' : 'en';
 }
