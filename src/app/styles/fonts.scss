@@ -1,0 +1,35 @@
+// GENERAL SANS
+
+@font-face {
+  font-family: 'General Sans';
+  src: url('/public/fonts/general-sans/GeneralSans-Variable.ttf') format('truetype');
+  font-weight: 200 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'General Sans';
+  src: url('/public/fonts/general-sans/GeneralSans-VariableItalic.ttf') format('truetype');
+  font-weight: 200 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+// ROBOTO MONO
+
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url('/public/fonts/roboto-mono/RobotoMono-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url('/public/fonts/roboto-mono/RobotoMono-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 700;
+  font-style: italic;
+  font-display: swap;
+}
