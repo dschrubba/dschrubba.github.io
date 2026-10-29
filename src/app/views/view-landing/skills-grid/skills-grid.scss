@@ -1,5 +1,6 @@
 @use 'colours' as c;
 @use 'vars' as v;
+@use 'mixins' as mix;
 
 .focus {
   padding-top: 80px;
@@ -14,4 +15,5 @@
   //border: 1px solid c.$border;
   border-radius: v.$radius-card;
   overflow: hidden;
+  @include mix.panel-shadow($size: 20px, $alpha: 0.33);
 }

@@ -1,4 +1,6 @@
+@use 'mixins' as mix;
 @use 'vars' as v;
+@use 'colours' as c;
 
 .stack {
   display: flex;
@@ -14,11 +16,13 @@
 
 .group {
   padding: 28px;
-  border: 1px solid #2b2e37;
   border-radius: v.$radius-card;
   display: flex;
   flex-direction: column;
   gap: 18px;
+  overflow: hidden;
+  background-color: c.$surface;
+  @include mix.panel-shadow($size: 20px, $alpha: 0.33);
 }
 
 .group-title {

@@ -1,4 +1,5 @@
 @use 'colours' as c;
+@use 'mixins' as mix;
 @use 'vars' as v;
 
 :host {
@@ -10,10 +11,11 @@
   display: flex;
   flex-direction: column;
   background: c.$surface;
-  border: 1px solid #2b2e37;
+  //border: 1px solid #2b2e37;
   border-radius: v.$radius-card;
   overflow: hidden;
   transition: border-color 0.15s;
+  @include mix.panel-shadow($size: 20px, $alpha: 0.33);
 
   &:hover {
     border-color: rgba(c.$accent-soft, 0.5);
@@ -24,10 +26,11 @@
   aspect-ratio: 16 / 9;
   overflow: hidden;
   background: c.$surface-sunken;
-  border-bottom: 1px solid #2b2e37;
+  //border-bottom: 1px solid #2b2e37;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 8px;
 
   img {
     width: 100%;
@@ -71,7 +74,7 @@
 
 .text {
   flex: 1;
-  margin: 0;
   color: c.$text-muted;
   font-size: 15px;
+  margin: 0 0 16px;
 }

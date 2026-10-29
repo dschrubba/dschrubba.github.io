@@ -1,0 +1,6 @@
+// Shadows
+@mixin panel-shadow($size: 65px, $alpha: 0.5) {
+  box-shadow: 0 0 $size 0 rgba(0,0,0,$alpha);
+  -webkit-box-shadow: 0 0 $size 0 rgba(0,0,0,$alpha);
+  -moz-box-shadow: 0 0 $size 0 rgba(0,0,0,$alpha);
+}
